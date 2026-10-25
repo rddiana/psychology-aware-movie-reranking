@@ -1,0 +1,17 @@
+seed: 42
+candidate_pool: 64
+slate_size: 10
+evaluation_users: 5000
+bootstrap_repeats: 500
+open_test: false
+
+supervised_reranker:
+  epochs: 3
+  learning_rate: 0.001
+  batch_size: 256
+
+minimal_repair:
+  lock_prefix_options: [3, 5]
+  max_replacements_options: [1, 2]
+  solver_time_seconds: 12
+  max_replacement_options_per_user: 24

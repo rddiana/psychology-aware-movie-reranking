@@ -1,0 +1,15 @@
+{
+  "decision": "safe fallback to unchanged GPT-2 ordering",
+  "config": {
+    "config_id": "01_GPT2",
+    "alpha_watch": 0.0,
+    "beta_choice": 0.0,
+    "lambda_popularity": 0.0,
+    "mu_ood": 0.0,
+    "gamma_diversity": 0.0,
+    "budget_relax": 0.0,
+    "user_order_seed": 2026
+  },
+  "guardrails_relative_to": "GPT-2",
+  "test_opened": false
+}

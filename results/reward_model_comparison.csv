@@ -1,0 +1,3 @@
+split,baseline,CatBoost_MAE,baseline_MAE,CatBoost_RMSE,baseline_RMSE,RMSE_improvement
+validation,user_item_blend,0.3158803352,0.3453458315,0.3670445264,0.3770420382,0.0099975118
+test,user_item_blend,0.3194891806,0.3407441504,0.3686856267,0.3723549057,0.0036692790

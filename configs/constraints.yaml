@@ -1,0 +1,15 @@
+# Guardrails are measured relative to the frozen GPT-2 baseline.
+ndcg_relative_floor: 0.99
+coverage_relative_floor: 0.99
+gini_absolute_tolerance: 0.0005
+repeat_absolute_tolerance: 0.002
+ood_absolute_tolerance: 0.002
+
+# Batch constraints are normalized as violation / tolerance.
+batch_tolerances:
+  choice: 0.005
+  novelty: 0.005
+  diversity: 0.005
+  repeat: 0.002
+  ood: 0.002
+  exposure_hhi: 0.00001

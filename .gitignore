@@ -1,0 +1,33 @@
+# Python / notebooks
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.venv/
+venv/
+
+# Local configuration and credentials
+.env
+configs/paths.yaml
+
+# Private or large experiment inputs
+data/*
+!data/README.md
+models/*
+!models/README.md
+artifacts/*.csv
+!artifacts/README.md
+!artifacts/manifest.json
+*.safetensors
+*.pt
+*.pth
+*.cbm
+*.duckdb
+*.parquet
+*.npz
+*.zip
+
+# Generated run directories
+work/
+runs/
+wandb/

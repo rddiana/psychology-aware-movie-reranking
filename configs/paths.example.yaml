@@ -1,0 +1,5 @@
+# Copy to configs/paths.yaml and adapt to your environment.
+data_dir: /content/drive/MyDrive/T-lab/dataset
+gpt2_checkpoint: /content/drive/MyDrive/T-lab/weights/best_model
+reranker_artifacts: /content/drive/MyDrive/T-lab/psych_constrained_reranker_v1
+output_dir: /content/drive/MyDrive/T-lab/psych_minimal_repair_final_v3

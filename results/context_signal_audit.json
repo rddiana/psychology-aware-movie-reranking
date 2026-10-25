@@ -1,0 +1,6 @@
+{
+  "time_of_day_available": false,
+  "session_duration_available": false,
+  "reason": "last_watch_dt contains calendar dates only; hour and true session duration are not identifiable",
+  "duplicate_user_item_pairs": 0
+}

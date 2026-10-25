@@ -1,0 +1,13 @@
+{
+  "experiment": "V07 exact minimal exposure repair",
+  "status": "incomplete",
+  "reason": "Colab session ended before the minimal-repair grid and final selection were saved",
+  "saved_on_drive": ["context_signal_audit.json", "pareto_stage1.csv"],
+  "not_available": [
+    "minimal_repair_grid.csv",
+    "selected_final_config.json",
+    "final_validation_comparison.csv",
+    "paired_bootstrap_ci.csv"
+  ],
+  "test_opened": false
+}

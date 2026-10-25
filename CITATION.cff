@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it."
+title: "Psychology-Aware Movie Reranking"
+type: software
+authors:
+  - family-names: Rekunova
+    given-names: Diana
+repository-code: "https://github.com/rddiana/psychology-aware-movie-reranking"
+license: MIT
+date-released: 2026-10-25
